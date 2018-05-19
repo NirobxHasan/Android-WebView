@@ -16,12 +16,10 @@ public class MainActivity extends AppCompatActivity {
         webView = (WebView)findViewById(R.id.nsu);
 
 
-
-
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://www.northsouth.edu/");
+        webView.loadUrl("https://rds3.northsouth.edu/index.php/welcome/enter_login");
 
     }
 
